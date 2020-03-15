@@ -34,7 +34,7 @@ func (c Captcha) Get() revel.Result {
 	out := io.Writer(c.Response.GetWriter())
 	image.WriteTo(out)
 
-	sessionId := c.Session["_ID"]
+	sessionId := c.Session["_ID"].(string)
 	//	LogJ(c.Session)
 	//	Log("------")
 	//	Log(str)

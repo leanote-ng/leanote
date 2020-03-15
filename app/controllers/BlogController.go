@@ -110,7 +110,7 @@ func (c Blog) setPreviewUrl() {
 	if username != "" {
 		userIdOrEmail = username
 	}
-	themeId := c.Session["themeId"]
+	themeId := c.Session["themeId"].(string)
 	theme := themeService.GetTheme(userId, themeId)
 
 	// siteUrl := configService.GetSiteUrl()

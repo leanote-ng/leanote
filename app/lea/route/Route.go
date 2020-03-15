@@ -91,7 +91,9 @@ func RouterFilter(c *revel.Controller, fc []revel.Filter) {
 			arg := c.MethodType.Args[i]
 			c.Params.Fixed.Set(arg.Name, value)
 		} else {
-			revel.WARN.Println("Too many parameters to", route.Action, "trying to add", value)
+			// TODO
+			// FIXME
+			// revel.WARN.Println("Too many parameters to", route.Action, "trying to add", value)
 			break
 		}
 	}
