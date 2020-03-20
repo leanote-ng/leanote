@@ -1,15 +1,17 @@
 package tests
 
 import (
-    "github.com/leanote/leanote/app/db"
-    "github.com/revel/revel"
-    "testing"
-    //  . "github.com/leanote/leanote/app/lea"
-    "github.com/leanote/leanote/app/service"
-    // "regexp"
-    //  "gopkg.in/mgo.v2"
-    // "fmt"
-    // "strings"
+	"testing"
+
+	"github.com/leanote-ng/leanote/app/db"
+	"github.com/revel/revel"
+
+	//  . "github.com/leanote-ng/leanote/app/lea"
+	"github.com/leanote-ng/leanote/app/service"
+	// "regexp"
+	//  "gopkg.in/mgo.v2"
+	// "fmt"
+	// "strings"
 )
 
 

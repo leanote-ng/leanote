@@ -1,11 +1,12 @@
 package service
 
 import (
-	"github.com/leanote/leanote/app/info"
-	//	. "github.com/leanote/leanote/app/lea"
-	"github.com/leanote/leanote/app/db"
-	"gopkg.in/mgo.v2/bson"
+	"github.com/leanote-ng/leanote/app/info"
+	//	. "github.com/leanote-ng/leanote/app/lea"
 	"time"
+
+	"github.com/leanote-ng/leanote/app/db"
+	"gopkg.in/mgo.v2/bson"
 )
 
 const IMAGE_TYPE = 0

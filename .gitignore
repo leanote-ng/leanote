@@ -18,3 +18,5 @@ files
 /node_modules
 .idea
 *.iml
+/app/tmp
+*.log

@@ -1,12 +1,14 @@
 package controllers
 
 import (
-	"github.com/leanote/leanote/app/info"
-	"github.com/leanote/leanote/app/lea/blog"
-	"github.com/leanote/leanote/app/service"
-	//	. "github.com/leanote/leanote/app/lea"
-	"github.com/revel/revel"
+	"github.com/leanote-ng/leanote/app/info"
+	"github.com/leanote-ng/leanote/app/lea/blog"
+	"github.com/leanote-ng/leanote/app/service"
+
+	//	. "github.com/leanote-ng/leanote/app/lea"
 	"strings"
+
+	"github.com/revel/revel"
 )
 
 var userService *service.UserService

@@ -3,16 +3,18 @@ package controllers
 import (
 	"github.com/revel/revel"
 	//	"encoding/json"
-	"github.com/leanote/leanote/app/info"
-	. "github.com/leanote/leanote/app/lea"
-	"gopkg.in/mgo.v2/bson"
 	"os"
 	"os/exec"
 	"regexp"
+	"runtime"
 	"strings"
 	"time"
-	"runtime"
-	//	"github.com/leanote/leanote/app/types"
+
+	"github.com/leanote-ng/leanote/app/info"
+	. "github.com/leanote-ng/leanote/app/lea"
+	"gopkg.in/mgo.v2/bson"
+
+	//	"github.com/leanote-ng/leanote/app/types"
 	//	"io/ioutil"
 	"fmt"
 	//	"bytes"

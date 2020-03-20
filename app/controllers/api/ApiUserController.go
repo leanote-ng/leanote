@@ -3,16 +3,17 @@ package api
 import (
 	"github.com/revel/revel"
 	//	"encoding/json"
-	"github.com/leanote/leanote/app/info"
-	. "github.com/leanote/leanote/app/lea"
-	"gopkg.in/mgo.v2/bson"
 	"time"
-	//	"github.com/leanote/leanote/app/types"
+
+	"github.com/leanote-ng/leanote/app/info"
+	. "github.com/leanote-ng/leanote/app/lea"
+	"gopkg.in/mgo.v2/bson"
+
+	//	"github.com/leanote-ng/leanote/app/types"
 	"io/ioutil"
 	//	"fmt"
 	//	"math"
 	"os"
-
 	//	"path"
 	//	"strconv"
 )

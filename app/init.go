@@ -3,17 +3,6 @@ package app
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/leanote/leanote/app/controllers"
-	"github.com/leanote/leanote/app/controllers/admin"
-	"github.com/leanote/leanote/app/controllers/api"
-	"github.com/leanote/leanote/app/controllers/member"
-	"github.com/leanote/leanote/app/db"
-	. "github.com/leanote/leanote/app/lea"
-	_ "github.com/leanote/leanote/app/lea/binder"
-	"github.com/leanote/leanote/app/lea/i18n"
-	"github.com/leanote/leanote/app/lea/route"
-	"github.com/leanote/leanote/app/service"
-	"github.com/revel/revel"
 	"html/template"
 	"math"
 	"net/url"
@@ -21,6 +10,18 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/leanote-ng/leanote/app/controllers"
+	"github.com/leanote-ng/leanote/app/controllers/admin"
+	"github.com/leanote-ng/leanote/app/controllers/api"
+	"github.com/leanote-ng/leanote/app/controllers/member"
+	"github.com/leanote-ng/leanote/app/db"
+	. "github.com/leanote-ng/leanote/app/lea"
+	_ "github.com/leanote-ng/leanote/app/lea/binder"
+	"github.com/leanote-ng/leanote/app/lea/i18n"
+	"github.com/leanote-ng/leanote/app/lea/route"
+	"github.com/leanote-ng/leanote/app/service"
+	"github.com/revel/revel"
 )
 
 func init() {
